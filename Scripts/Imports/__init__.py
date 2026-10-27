@@ -10,3 +10,4 @@ from Setups.CameraSetup import SetupCamera
 from Setups.DetectorSetup import SetupDetector
 from Setups.Setups import Setups
 from Cleanups.Cleanup import Cleanup
+from Core.Display.DrawFaces import DrawFaces
