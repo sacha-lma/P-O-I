@@ -9,3 +9,4 @@ from Setups.WindowSetup import SetupWindow
 from Setups.CameraSetup import SetupCamera
 from Setups.DetectorSetup import SetupDetector
 from Setups.Setups import Setups
+from Cleanups.Cleanup import Cleanup
