@@ -11,3 +11,4 @@ from Setups.DetectorSetup import SetupDetector
 from Setups.Setups import Setups
 from Cleanups.Cleanup import Cleanup
 from Core.Display.DrawFaces import DrawFaces
+from Core.Display.Display import Display
