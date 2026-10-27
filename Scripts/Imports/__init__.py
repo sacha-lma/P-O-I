@@ -8,3 +8,4 @@ from insightface.app import FaceAnalysis
 from Setups.WindowSetup import SetupWindow
 from Setups.CameraSetup import SetupCamera
 from Setups.DetectorSetup import SetupDetector
+from Setups.Setups import Setups
