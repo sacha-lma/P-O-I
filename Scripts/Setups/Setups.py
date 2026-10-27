@@ -1,6 +1,6 @@
 from Imports import SetupCamera, SetupDetector
 
 def Setups():
-    cam = SetupCamera()
-    app = SetupDetector()
-    return (cam, app)
+    Cam = SetupCamera()
+    App = SetupDetector()
+    return (Cam, App)

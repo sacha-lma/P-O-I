@@ -1,10 +1,10 @@
 from Imports import StopChecks, Display
 
-def MainLoop(cam, app):
+def MainLoop(Cam, App):
     while True:
-        ok, frame = cam.read()
-        if not ok:
+        Ok, Frame = Cam.read()
+        if not Ok:
             break
-        Display(app, frame)
+        Display(App, Frame)
         if StopChecks():
             break

@@ -1,5 +1,5 @@
 from Imports import cv2
 
-def Cleanup(cam):
-    cam.release()
+def Cleanup(Cam):
+    Cam.release()
     cv2.destroyAllWindows()

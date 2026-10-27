@@ -1,6 +1,6 @@
 from Imports import cv2
 
-def DrawFaces(app, frame):
-    for f in app.get(frame):
-        x1, y1, x2, y2 = f.bbox.astype(int)
-        cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
+def DrawFaces(App, Frame):
+    for Face in App.get(Frame):
+        X1, Y1, X2, Y2 = Face.bbox.astype(int)
+        cv2.rectangle(Frame, (X1, Y1), (X2, Y2), (0, 255, 0), 2)
