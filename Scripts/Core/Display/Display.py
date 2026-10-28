@@ -1,5 +1,5 @@
-from Imports import DrawFaces, cv2
+from Imports import cv2, AnalysisLoop
 
 def Display(App, Frame):
-    DrawFaces(App, Frame)
+    AnalysisLoop(App, Frame)
     cv2.imshow("camera", Frame)
