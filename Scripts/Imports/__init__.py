@@ -11,6 +11,7 @@ class FaceInfo:
     bbox: list
     age: int
     gender: int
+    acuracy: float
 
 # INTERNAL IMPORTS (order matters: each module must come after the ones it imports)
 
