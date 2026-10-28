@@ -1,9 +1,9 @@
 from Imports import cv2, FaceInfo
 
 def DefineBoxColor(FaceInfos):
-    if FaceInfos.acuracy >= 0.9:
+    if FaceInfos.accuracy >= 0.9:
         return (0, 255, 0)
-    elif FaceInfos.acuracy >= 0.7:
+    elif FaceInfos.accuracy >= 0.7:
         return (0, 255, 255)
     else:
         return (0, 0, 255)
