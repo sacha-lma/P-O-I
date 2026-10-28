@@ -2,6 +2,15 @@
 
 import cv2
 from insightface.app import FaceAnalysis
+from dataclasses import dataclass
+
+# DATACLASS DEFINITIONS
+
+@dataclass
+class FaceInfo:
+    bbox: list
+    age: int
+    gender: int
 
 # INTERNAL IMPORTS (order matters: each module must come after the ones it imports)
 
