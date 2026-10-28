@@ -20,8 +20,8 @@ from Setups.DetectorSetup import SetupDetector
 from Setups.Setups import Setups
 from Cleanups.Cleanup import Cleanup
 from Core.Display.DrawFaces import DrawFaces
-from Core.Display.Display import Display
 from Core.Analysis.GetInfos import GetFaceInfos
 from Core.Analysis.Loop import AnalysisLoop
+from Core.Display.Display import Display
 from Core.Checks.StopChecks import StopChecks
 from Core.MainLoop import MainLoop
