@@ -1,4 +1,4 @@
-insightface
-onnxruntime
-opencv-python
-numpy<2
+insightface==2.1
+onnxruntime==1.31.1
+opencv-python==4.11.0.86
+numpy==1.26.4
