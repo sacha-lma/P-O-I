@@ -13,7 +13,7 @@ def DrawBox(Frame, FaceInfos):
     cv2.rectangle(Frame, (X1, Y1), (X2, Y2), DefineBoxColor(FaceInfos), 2)
 
 def DrawLabel(Frame, FaceInfos):
-    X1, Y1, X2, Y2 = FaceInfos.bbox
+    X1, Y1, X2, _ = FaceInfos.bbox
     Label = f"{FaceInfos.gender} : {FaceInfos.age}"
     Scale = max(0.4, (X2 - X1) / 150) / 2
     cv2.putText(Frame, Label, (X1, Y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, Scale, (36, 255, 12), 2)
