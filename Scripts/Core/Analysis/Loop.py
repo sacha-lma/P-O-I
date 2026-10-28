@@ -1,4 +1,4 @@
-from Scripts.Imports import FaceInfo, DrawFaces, GetFaceInfos
+from Imports import FaceInfo, DrawFaces, GetFaceInfos
 
 
 def AnalysisLoop(App, Frame):
