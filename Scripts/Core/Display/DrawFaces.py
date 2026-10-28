@@ -1,8 +1,16 @@
 from Imports import cv2, FaceInfo
 
+def DefineAcuracy(FaceInfos):
+    if FaceInfos.acuracy >= 0.9:
+        return (0, 255, 0)
+    elif FaceInfos.acuracy >= 0.7:
+        return (0, 255, 255)
+    else:
+        return (0, 0, 255)
+
 def DrawBox(Frame, FaceInfos):
     X1, Y1, X2, Y2 = FaceInfos.bbox
-    cv2.rectangle(Frame, (X1, Y1), (X2, Y2), (0, 255, 0), 2)
+    cv2.rectangle(Frame, (X1, Y1), (X2, Y2), DefineAcuracy(FaceInfos), 2)
 
 def DrawLabel(Frame, FaceInfos):
     X1, Y1, X2, Y2 = FaceInfos.bbox
